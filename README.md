@@ -36,18 +36,7 @@ jobs:
           ref: ${{ github.head_ref || github.ref }}
 
       - name: Run autofmt
-        uses: area44/autofmt@v0.1.0
-        with:
-          # Optional: provide custom rules (merged with defaults)
-          rules: |
-            {
-              "printWidth": 100,
-              "semi": true,
-              "singleQuote": true
-            }
-          # Optional: provide custom ignore patterns (appended to defaults)
-          ignore: |
-            vendor/*.js
+        uses: area44/autofmt-action@v0.1.0
 ```
 
 ## Default Configuration
