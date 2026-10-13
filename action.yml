@@ -88,7 +88,7 @@ runs:
         git add .
         if ! git diff --cached --quiet; then
           echo "Changes detected, committing and pushing to $PUSH_REF..."
-          git commit -m "style: format code with oxfmt [skip ci]"
+          git commit -m "chores: format code with oxfmt [skip ci]"
           git push origin $PUSH_REF
         else
           echo "No changes detected."
