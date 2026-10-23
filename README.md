@@ -12,7 +12,7 @@ This GitHub Action provides a reusable Composite Action for fast JavaScript and 
 
 ## Usage
 
-Create a file named `.github/workflows/format.yml` in your repository:
+Create a file named `.github/workflows/autofmt.yml` in your repository:
 
 ```yaml
 name: Format
